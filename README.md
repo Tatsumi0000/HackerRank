@@ -1,6 +1,6 @@
 # HackerRank
 
-説いた問題を貼り付けるリポジトリ
+解いた問題を貼り付けるリポジトリ
 
 [HackerRankのプロフィール](https://www.hackerrank.com/Tatsumi0000?h_r=internal-search&hr_r=1)
 
