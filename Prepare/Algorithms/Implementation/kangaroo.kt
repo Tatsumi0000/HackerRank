@@ -1,5 +1,3 @@
-import kotlin.math.abs
-
 /*
  * Complete the 'kangaroo' function below.
  *
@@ -17,7 +15,7 @@ fun kangaroo(x1: Int, v1: Int, x2: Int, v2: Int): String {
     if (x1 < x2 && v1 < v2) return "NO"
     if (x1 != x2 && v1 == v2) return "NO"
     val firstDistance = (x1 + v1) - (x2 + v2)
-    val jumpDistance = abs(v1 - v2)
+    val jumpDistance = v1 - v2
     if (firstDistance % jumpDistance == 0) return "YES"
     return "NO"
 }
